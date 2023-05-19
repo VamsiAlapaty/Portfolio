@@ -1,0 +1,17 @@
+div{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    text-align: center;
+}
+a{
+    margin-left: 15px;
+    color: azure;
+}
