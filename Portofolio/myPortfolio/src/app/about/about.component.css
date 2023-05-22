@@ -1,0 +1,17 @@
+.photo{
+    float: right;
+}
+.abt{
+    text-align: center;
+    margin: 30px 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);   
+}
+p{
+    color: aliceblue;
+    padding: 20px;
+    line-height: 20px;
+}
+img{
+    padding: 20px;
+}
