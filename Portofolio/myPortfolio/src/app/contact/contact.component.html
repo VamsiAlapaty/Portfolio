@@ -1,1 +1,32 @@
-<p>contact works!</p>
+<form [formGroup]="contactForm" class="form-container">
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>First Name:</mat-label>
+            <input formControlName="firstName" placeholder="first name" matInput type="text">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Last Name:</mat-label>
+            <input formControlName="lastName" placeholder="last name" matInput type="text">
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your Gmail:</mat-label>
+            <input formControlName="gmail" placeholder="abc@gmail.com" matInput type="email">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Phone Number:</mat-label>
+            <input formControlName="phoneNumber" matInput type="tel">
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Comments:</mat-label>
+            <textarea formControlName="comments" placeholder="Type here" matInput></textarea>
+        </mat-form-field>
+    </div>
+    <div class="row">
+        <button type="reset">Reset</button>
+        <button type="submit" (click)="sendInfor()">Submit</button>
+    </div>
+</form>
