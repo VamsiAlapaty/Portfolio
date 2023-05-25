@@ -19,9 +19,9 @@ export class ContactComponent {
     comments:['']
   })
 
-  
-
   sendInfor(){
-    console.log("Data Received ", this.contactForm.value);
+    if(this.contactForm.value.firstName && this.contactForm.value.gmail){
+      console.log("Data Received ", this.contactForm.value.firstName); 
+    }
   }
 }
