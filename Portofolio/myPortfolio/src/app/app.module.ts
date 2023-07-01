@@ -14,6 +14,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
+import { HeaderComponent } from './header/header.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,15 @@ import {MatButtonModule} from '@angular/material/button';
     ContactComponent,
     ExperienceComponent,
     ProjectsComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatProgressBarModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
+    MatTooltipModule,
     MatExpansionModule,
     MatFormFieldModule,
     MatInputModule,

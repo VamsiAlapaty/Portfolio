@@ -1,1 +1,22 @@
-<p>skills works!</p>
+<mat-accordion>
+<mat-expansion-panel [expanded]="frontend">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Primary Skills
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of lang" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
+    </div>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Secondary Skills
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of lang" class="inline">
+        <button matTooltip="{{html}}">{{lag}}</button>
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>
