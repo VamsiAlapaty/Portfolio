@@ -1,15 +1,16 @@
-div{
+
+.resume{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    padding: 30px;
+    width: 100%;
+    height: 100%;
 }
-h1{
-    text-align: center;
+.name{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    padding: 20px;
+    display: flex;
+    margin: 0 10rem;
 }
+
 nav{
     text-align: center;
 }
