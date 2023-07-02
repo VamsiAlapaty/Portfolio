@@ -15,8 +15,58 @@
         Secondary Skills
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <div *ngFor="let lag of lang" class="inline">
-        <button matTooltip="{{html}}">{{lag}}</button>
+    <div *ngFor="let lag of backend" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
+    </div>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Testing
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of testing" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
+    </div>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Version Control
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of VersionControl" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
+    </div>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Cloud Technologies
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of CloudTech" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
+    </div>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Database
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of database" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
+    </div>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Development Environments IDE
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div *ngFor="let lag of ide" class="inline">
+        <label matTooltip="{{html}}">{{lag}}</label>
     </div>
   </mat-expansion-panel>
 </mat-accordion>
